@@ -1,9 +1,12 @@
 # to find the circumference and area of a circle
 
-a = int(input("Enter the first number : "))
-#b = int(input("Enter the first number : "))
-c = a / 2
-print(c)
+pi = 3.14159
+ra=float(input("radius of the circle : "))
+area = pi * ra * ra
+print("circle area : = ",area)
+circumference = 2 * pi * ra
+print("circle circumference : = ",circumference)
+
 
 
 
